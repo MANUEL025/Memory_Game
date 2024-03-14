@@ -2,6 +2,73 @@
   cursor: pointer;
   background-color: aqua;
   border-color: black;
+  margin-bottom: 10px;
 }
 
 
+/* Estilos generales */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0; /* Fondo claro */
+  background-image: url('ruta/a/tu/imagen_de_fondo.jpg'); /* Si deseas una imagen de fondo */
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin-top: 50px; /* Espacio superior */
+}
+
+/* Estilos para los cards */
+
+.card {
+  width: 100%;
+  height: auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+/* Estilos para el selector de nivel */
+
+.navbar {
+  background-color: #fff; /* Fondo de la barra de navegación */
+}
+
+.navbar-brand {
+  font-weight: bold;
+  color: #333; /* Color del texto del logo */
+}
+
+.nav-item {
+  margin-left: 20px;
+}
+
+.nav-link {
+  color: #333; /* Color de los elementos del menú */
+}
+
+/* Estilos para el nivel seleccionado */
+
+.form-select {
+  width: 150px;
+  padding: 6px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Media Query para pantallas pequeñas */
+
+@media (max-width: 768px) {
+  .navbar-nav {
+    margin-left: auto !important;
+  }
+}
