@@ -1,74 +1,43 @@
-.contCard{
-  cursor: pointer;
-  background-color: aqua;
-  border-color: black;
-  margin-bottom: 10px;
-}
-
-
-/* Estilos generales */
-
+/* Estilos para las cartas del juego */
 body {
-  font-family: Arial, sans-serif;
-  background-color: #f0f0f0; /* Fondo claro */
-  background-image: url('ruta/a/tu/imagen_de_fondo.jpg'); /* Si deseas una imagen de fondo */
-  background-size: cover;
-  background-position: center;
-  margin: 0;
-  padding: 0;
+  background-color: rgb(49, 77, 204);
+}
+.contCard {
+  cursor: pointer;
+}
+.contCard img {
+  max-width: 100%; /* Establecer el tamaño máximo al ancho del contenedor */
+  height: auto; /* Mantener la proporción de la imagen */
+}
+/* Estilos personalizados para el cronómetro */
+#choronometerId {
+  margin-top: 10px; 
 }
 
-.container {
-  margin-top: 50px; /* Espacio superior */
-}
-
-/* Estilos para los cards */
-
-.card {
-  width: 100%;
-  height: auto;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  
-}
-
-.card img {
-  width: 100%;
-  height: auto;
+#choronometerId .col-2 {
+  font-size: 25px;
 }
 
 /* Estilos para el selector de nivel */
-
-.navbar {
-  background-color: #fff; /* Fondo de la barra de navegación */
+#levelSelector {
+  margin-right: 10px; 
 }
 
-.navbar-brand {
-  font-weight: bold;
-  color: #333; /* Color del texto del logo */
+.progress-bar {
+  height: 50px; 
+  background-color: #151794;
 }
 
-.nav-item {
-  margin-left: 20px;
+
+
+
+
+.navbar-brand img {
+  width: 40px; /* Aumentar el ancho del logo a 40px */
+  height: auto; /* Mantener la proporción */
 }
 
-.nav-link {
-  color: #333; /* Color de los elementos del menú */
-}
-
-/* Estilos para el nivel seleccionado */
-
-.form-select {
-  width: 150px;
-  padding: 6px 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-}
-
-/* Media Query para pantallas pequeñas */
-
-@media (max-width: 768px) {
-  .navbar-nav {
-    margin-left: auto !important;
-  }
+/* Estilos para elementos del navbar */
+.col- {
+  max-width: 50px;
 }
