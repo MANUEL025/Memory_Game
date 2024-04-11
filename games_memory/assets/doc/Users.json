@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "nombres": "Karen Franco",
+    "username": "krencilla",
+    "email": "kfranco@gmail.com",
+    "direccion": "calle falsa 1 2 3",
+    "telefono": "31026559988"
+  },
+  {
+    "id": 2,
+    "nombres": "Luisa Martínez",
+    "username": "lumart",
+    "email": "lumartinez@hotmail.com",
+    "direccion": "Carrera 10 #45-67",
+    "telefono": "3154789632"
+  },
+  {
+    "id": 3,
+    "nombres": "Carlos Sánchez",
+    "username": "carsan",
+    "email": "csanchez@gmail.com",
+    "direccion": "Avenida Boyacá #89-21",
+    "telefono": "3115896321"
+  },
+  {
+    "id": 4,
+    "nombres": "María Rodríguez",
+    "username": "marod",
+    "email": "marodriguez@yahoo.com",
+    "direccion": "Calle 7 #32-45",
+    "telefono": "3109876543"
+  },
+  {
+    "id": 5,
+    "nombres": "Javier López",
+    "username": "javlop",
+    "email": "jlop@gmail.com",
+    "direccion": "Transversal 18 #56-23",
+    "telefono": "3147852369"
+  },
+  {
+    "id": 6,
+    "nombres": "Ana García",
+    "username": "anagar",
+    "email": "anagar@hotmail.com",
+    "direccion": "Diagonal 12 #78-90",
+    "telefono": "3176543210"
+  }
+]

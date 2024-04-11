@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'strange';
+    src: url('../fonts/Strange.ttf');
+  }
+  
+  body {
+    background: url("../img/memory/fondo1.jpg");
+    font-family: 'strange', sans-serif; /* Añadí una fuente de respaldo */
+    font-size: large;
+    text-transform: uppercase !important;
+  }
+
+  .cont{
+    border: 2px solid #7916a0; /* Grosor y color del borde */
+  padding: 20px; /* Espaciado interno para el contenido */
+  margin: 20px auto; /* Margen externo para centrar el contenedor */
+  max-width: 800px; 
+  }
+  
+  .containerAll {
+    border: 2px solid #111111; /* Grosor y color del borde */
+    border-radius: 10px; /* Radio de borde para esquinas redondeadas */
+    padding: 20px; /* Espaciado interno para el contenido */
+    margin: 20px auto; /* Margen externo para centrar el contenedor */
+    max-width: 800px; /* Ancho máximo del contenedor */
+    margin-top: 150px;
+    
+  }
+  
+  .titleGames {
+    font-size: 5em;
+    margin-top: 20px;
+   
+  }
+  
+  input, select {
+    text-transform: uppercase !important;
+    background: #1279a1 !important;
+    color: rgb(54, 11, 124); /* Asegúrate de que el texto sea visible */
+    padding: 10px; /* Mantenemos un poco de padding para la estética */
+    border: 1px solid #ccc; /* Opcional, dependiendo del diseño deseado */
+    border-radius: 5px; /* Para inputs y selects con bordes redondeados */
+    cursor: pointer; /* Solo es necesario en el select, pero no afecta al input */
+  }
+  
+  #btn_start {
+    padding: 10px 20px; /* Ajusta el padding para que el texto no esté muy ajustado */
+    background: #000;
+    border: solid 2px green;
+    font-size: 2em;
+    color: white; /* Para que el texto dentro del botón sea visible */
+    cursor: pointer;
+  }
+  

@@ -1,0 +1,81 @@
+@font-face {
+  font-family: 'strange';
+  src: url('../fonts/Strange.ttf');
+}
+
+.nav_text {
+  font-family: 'strange';
+
+}
+
+/* Estilos para las cartas del juego */
+body {
+  background: url("../img/memory/fondo2.jpeg");
+
+}
+.contCard {
+  cursor: pointer;
+  margin: 5px;
+}
+
+
+.card {
+  width: 200px;
+  height: 10px;
+  margin: 5px;
+}
+
+.form-select {
+  background: rgb(73, 99, 138);
+} 
+  /* Estilos personalizados para el cronómetro */
+#choronometerId {
+  font-family: 'strange';
+  margin-top: 10px; 
+}
+
+#choronometerId .col-2 {
+  font-size: 25px;
+}
+
+/* Estilos para el selector de nivel */
+#levelSelector {
+  font-family: 'strange';
+  margin-right: 10px; 
+}
+
+.progress-bar {
+  
+  height: 50px; 
+  background-color: #151794;
+}
+ .container1 {
+  
+  max-width: 60%;
+  margin: 100px auto 0; 
+ 
+  padding: 20px; 
+  margin: 20px auto; 
+  
+ }
+
+.nav {
+  background: rgb(29, 161, 194);
+  font-family: 'strange';
+}
+
+.navbar-brand img {
+  width: 60px; 
+  height: auto; 
+}
+.navbar{
+  color: #e9e9eb;
+  font-feature-settings: "abvs";
+  text-decoration: double;
+  margin-top: 10px;
+  background: url("../img/memory/fondo2.jpeg");
+}
+.btn {
+  margin-left: 30px;
+}
+
